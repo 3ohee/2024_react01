@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Courseitem from './components/course/Courseitem';
 import CourseListCard from './components/course/CourseListCard';
+import Library from './components/step01/Library';
 
 // 파스칼 케이스를 사용해야 된다. (첫글자 대문자 단어 첫글자 대문자)
 function Counter() {
@@ -18,7 +19,7 @@ function Counter() {
 // class 대신 className 이라고 사용함
 function App() {
   return (
-    <main>
+    <div>
       {/* <Header />
       <Main />
       <Footer/> */}
@@ -38,8 +39,10 @@ function App() {
         </div>
       </div> */}
     
-            <CourseListCard />
-    </main>
+           {/* 3단계 <CourseListCard /> */}
+        <Library />
+
+    </div>
   );
 }
 
