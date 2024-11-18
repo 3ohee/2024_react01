@@ -39,8 +39,8 @@ function App() {
         </div>
       </div> */}
     
-           {/* 3단계 <CourseListCard /> */}
-        <Library />
+        {/* <Library /> */}
+           <CourseListCard />
 
     </div>
   );
