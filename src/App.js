@@ -6,6 +6,7 @@ import Main from './components/Main';
 import Courseitem from './components/course/Courseitem';
 import CourseListCard from './components/course/CourseListCard';
 import Library from './components/step01/Library';
+import Profile from './components/step02/Profile';
 
 // 파스칼 케이스를 사용해야 된다. (첫글자 대문자 단어 첫글자 대문자)
 function Counter() {
@@ -41,7 +42,8 @@ function App() {
     
         {/* <Library /> */}
            <CourseListCard />
-
+            <hr />
+            <Profile />
     </div>
   );
 }
